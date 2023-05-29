@@ -1,0 +1,11 @@
+body{
+
+    background-color: slategrey;
+}
+div{
+    width: fit-content;
+}
+h1{
+    border: 10px solid;
+    color: aliceblue;
+}

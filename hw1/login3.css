@@ -1,0 +1,113 @@
+/* CSS per la pagina di login */
+
+body {
+  background-image: url(https://images6.alphacoders.com/323/323997.jpg);
+  background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logo {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 40px 0;
+  }
+  
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main {
+    background-color:#b05508ad;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+    margin: 10px 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .username,
+  .password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-btn input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ccb62dba;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .signup {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signup-btn-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signup-btn {
+    padding: 10px 20px;
+    background-color: #ccb62dba;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .signup-btn:hover,
+  .login-btn input[type="submit"]:hover {
+    background-color: #0088ff;
+  }
+  
